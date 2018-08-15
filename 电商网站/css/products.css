@@ -1,0 +1,126 @@
+/*公用清除浮动*/
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*产品页*/
+/*之前给navbar设置了固定高度，而没有用clearfix*/
+
+.products .leftArea{
+	width: 185px;
+}
+.products .rightArea{
+	width: 810px;
+	padding:0px;
+}
+
+/*产品分类导航*/
+.leftNav{
+	background-color: #f3f3f3;
+	border:1px #D7D7D7 solid;
+}
+.leftNav .navTitle{
+	border-bottom: 1px #D7D7D7 solid;
+	height: 34px;
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+}
+.navCont{
+	padding:0 18px;
+	border-bottom: 1px dotted #D7D7D7;
+	margin-bottom: -1px;
+
+}
+.navCont h3{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+.navContlist{
+	line-height: 25px;
+}
+.navContlist li{
+	float: left;
+	width: 50%;
+}
+.hr_7{
+	height: 7px;
+}
+.banner-bar{
+	float: none;
+}
+.products-title{
+	height: 34px;
+	border-bottom:#ccc solid 2px;
+}
+.products-title h3{
+	width: 180px;
+	border-bottom: #096DBA solid 2px;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 9px;
+}
+/*商品 item*/
+.products-list .item{
+	width: 25%;
+	float: left;
+	margin-bottom: 10px;
+}
+.products-list .item .img-item{
+	height: 170px;
+	text-align: center;
+
+}
+.products-list .item img{
+	margin-top: 10px;
+}
+.products-list .item-text{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.products-list .item-text > a{
+	line-height: 20px;
+	color: #000;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+}
+.products-list .item a:hover{
+	text-decoration: underline;
+}
+.item .money{
+	padding-top: 10px;
+	color: #d4105a;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.hr_10{
+	height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

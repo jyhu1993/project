@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #656565;
+}
+body{
+	font-size: 12px;
+}
+input, button{
+	border:none;
+}
