@@ -62,4 +62,8 @@ chess.onclick = function(event){
 	}		
 };
 
+
+//以下为创建AI，人机大战；
+//赢法数组；
+
 	
