@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+
+	background: url(背景图片.jpeg) repeat;
+	height: 200%;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	color: yellow;
+	position: fixed;
+	left: 40%;
+	top: 45%;
+}
+/*浮出层样式；*/
+#pop-style{
+	position: fixed;
+	width: 500px;
+	min-width: 200px;
+	height: 200px;
+	min-height: 150px;
+	box-shadow: 5px 5px 5px #888888;
+	z-index: 100;
+	background-color:	#E6E6FA;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -100px;
+	display: none;
+}
+input{
+	margin: 10px;	
+}
+/*遮罩层的样式*/
+.shade{
+	height: 200%;
+	width: 100%;
+	opacity: 0.5;
+	background-color: black;
+	position: absolute;
+	z-index: 90;
+	display: none;
+}
+
+/*设置可拖拽边框的样式；*/
+.resizeT, .resizeL,.resizeR,.resizeB{
+	position: absolute;
+}
+.resizeT{
+	left: 0px;
+	top: 0px;
+	border-top: 2px black solid;
+	width: 100%;
+}
+.resizeL{
+	left: 0px;
+	top: 0px;
+	border-left: 2px black solid;
+	height: 100%;
+}
+.resizeR{
+	right: 0px;
+	top: 0px;
+	border-right: 2px black solid;
+	height: 100%;
+}
+.resizeB{
+	bottom: 0px;
+	left: 0px;
+	border-bottom: 2px black solid;
+	width: 100%;
+}
+.resizeB:hover{
+	cursor: s-resize;
+}
+.resizeR:hover{
+	cursor: w-resize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
