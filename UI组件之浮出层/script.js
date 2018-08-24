@@ -57,6 +57,7 @@ var resizeB = document.getElementsByClassName('resizeB')[0];
 
 //下边框设置缩放；
 resizeB.onmousedown = function move(event){
+	//阻止拖放事件
 	event.preventDefault();
 	var y1 = event.clientY;
 	document.addEventListener('mousemove',borderBMove,false);

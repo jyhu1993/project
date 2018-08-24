@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	display: block;
+	margin: auto;
+}
+caption{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+table,td{
+	border:1px solid black;
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+	margin:auto;
+}
+input{
+	border:none;
+	text-align: center;
+	height: 25px;
+}
+button{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+
+thead td{
+	position: relative;
+	background-color: #4169E1;
+	color: white;
+}
+
+
+/*css画三角*/
+.ascend{
+	display: inline-block;
+	height: 0;
+	width: 0;
+	border:5px solid black;
+	border-color: transparent transparent white transparent;
+}
+.descend{
+	display: inline-block;
+	height: 0;
+	width: 0;
+	border:5px solid black;
+	border-color: white transparent transparent transparent;
+}
+/*对三角箭头进行定位*/
+.ascend, .descend{
+	position: absolute;
+	right: 10px;
+}
+.ascend{
+	bottom: 3px;
+}
+.descend{
+	top: 3px;
+}
+
+/*//为固定表头设置样式*/
+.copy{
+	position: fixed;
+	top: 0;
+	height: 23px;
+	overflow: hidden;
+	left: 50%;
+}
+.copy caption{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
